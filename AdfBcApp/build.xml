@@ -3,8 +3,9 @@
 <!--Generated Mar 7, 2013 10:24:00 AM-->
 <project name="AdfBcApp" basedir=".">
 <property environment="env" />
-  <property file="build.properties"/>
-  <target name="deploy" description="Deploy JDeveloper profiles">
+<property file="build.properties"/>
+<target name="deploy" description="Deploy JDeveloper profiles">
+<!--
     <taskdef name="ojdeploy"
              classname="oracle.jdeveloper.deploy.ant.OJDeployAntTask"
              uri="oraclelib:OJDeployAntTask"
@@ -23,6 +24,7 @@
                        value="${oracle.jdeveloper.deploy.outputfile}"/>
       </ora:deploy>
     </ora:ojdeploy>
+-->
   </target>
 </project>
 
